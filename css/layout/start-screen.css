@@ -1,0 +1,56 @@
+.start-screen {
+    padding: 18.7rem 0;
+    min-height: calc(100vh - 13.5rem);
+    height: max-content;
+    background-image: url("../../assets/images/banner.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.start-screen__wrap {
+    text-align: right;
+}
+
+.start-screen__btn-wrap {
+    margin-bottom: 32px;
+}
+
+.start-screen__title {
+    font-size: 8.5rem;
+    font-weight: bold;
+    margin-bottom: 38px;
+    line-height: 100%;
+}
+
+.start-screen__secondary-title {
+    font-size: 4.8rem;
+    font-style: italic;
+    font-weight: normal;
+    text-transform: uppercase;
+    line-height: 100%;
+}
+
+.start-screen__text {
+    font-size: 3.6rem;
+    line-height: 120%;
+    margin-left: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+    margin-bottom: 20px;
+}
+
+.start-screen__text span {
+    display: inline-block;
+}
+
+@media screen and (max-width: 415px) {
+    .start-screen {
+        background-position: center right;
+    }
+
+    .start-screen__wrap {
+        text-align: center;
+    }
+}

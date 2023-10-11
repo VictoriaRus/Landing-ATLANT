@@ -1,0 +1,35 @@
+.options {
+    text-align: center;
+    padding: 6.8rem 0 10.6rem 0;
+    position: relative;
+}
+
+.options::before {
+    content: "";
+    position: absolute;
+    background-color: var(--secondary-color);
+    display: inline-block;
+    width: 100%;
+    height: 12px;
+    top: 0;
+    left: 0;
+}
+
+.options__wrap {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-top: 15.4rem;
+}
+
+@media screen and (max-width: 768px) {
+    .options__wrap {
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .options__wrap {
+        padding-top: 9rem;
+    }
+}

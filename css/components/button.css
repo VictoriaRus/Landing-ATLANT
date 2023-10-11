@@ -1,0 +1,16 @@
+.button {
+    font-family: "Myriad Pro", sans-serif;
+    font-size: 2.4rem;
+    border-radius: 3rem;
+    background-color: var(--secondary-color);
+    color: var(--white-color);
+    width: 22.3rem;
+    height: 6.2rem;
+    border: none;
+    cursor: pointer;
+    transition: background .2s ease;
+}
+
+.button:hover, .button:active {
+    background-color: var(--main-color);
+}

@@ -1,0 +1,31 @@
+/* fonts */
+@import "../assets/fonts/stylesheet.css";
+
+/* variables */
+@import "./variables.css";
+
+/* base */
+@import "./base.css";
+
+/* components */
+@import "./components/logo.css";
+@import "./components/navigation-desktop.css";
+@import "./components/navigation-mobile.css";
+@import "./components/button-new.css";
+@import "./components/button.css";
+@import "./components/text.css";
+@import "./components/caption.css";
+@import "./components/option-card.css";
+@import "./components/property-card.css";
+@import "./components/benefits-card.css";
+
+/* layout */
+@import "./layout/header.css";
+@import "./layout/start-screen.css";
+@import "./layout/new-program.css";
+@import "./layout/control-panel.css";
+@import "./layout/property.css";
+@import "./layout/gallery.css";
+@import "./layout/options.css";
+@import "./layout/all-benefits.css";
+@import "./layout/footer.css";

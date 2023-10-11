@@ -1,0 +1,24 @@
+:root {
+    --text-color: #000000;
+    --main-color: #FF6633FF;
+    --secondary-color: #0099FFFF;
+    --nav-color: #cccccc;
+    --white-color: #FFFFFFFF;
+    --footer-bg-color: #282a2e;
+    --font-size-caption: 5.5rem;
+    --font-size-paragraph-heading: 2.7rem;
+    --font-size-text: 2.7rem;
+    --window-color: rgba(251, 251, 252, 0.6);
+}
+
+@media screen and (max-width: 820px) {
+    :root {
+        --font-size-caption: 4.5rem;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    :root {
+        --font-size-caption: 3.8rem;
+    }
+}
